@@ -9,7 +9,7 @@ body {
 div {
     filter: invert(60%);
     position: absolute;
-    top: 250px;
+    top: 300px;
     right: 30px;
     z-index: -1;
 }
