@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(155, 200, 40, 1);
+    background-color: rgb(115, 203, 115);
     margin: 20px;
     font-size: 20px;
 }
@@ -12,7 +12,7 @@ p {
 }
 
 li {
-    color: red;
+    color: rgb(218, 105, 74);
 }
 
 ol {
@@ -20,6 +20,6 @@ ol {
 }
 
 .introduction {
-    background-color: darkolivegreen;
+    background-color: rgb(149, 184, 93);
     border: 60px dotted lightblue;
 }

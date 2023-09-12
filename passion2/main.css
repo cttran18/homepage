@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(to right, rgb(248, 182, 182), rgb(255, 111, 0));
+    color:rgb(233, 90, 90);
+    margin: 20px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h1 {
+    background-color: rgb(255, 146, 95);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: right;
+    font-size: 80px;
+    margin: 20px;
+}
+
+p {
+    color: rgb(255, 214, 214);
+    background-color: rgba(213, 97, 76, 0.397);
+    padding: 5px;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+    color:rgb(219, 106, 86);
+    text-decoration-line: underline;
+    text-indent: 20px;
+    margin: -10px;
+    background-image: linear-gradient(to left, rgba(248, 182, 182, 0.715), rgba(255, 111, 0, 0.523));
+    background-size: 20%;
+}
+
+ul {
+    color:rgb(219, 106, 86);
+    margin: 20px;
+    font-size: 38px;
+}
+
+img {
+    border: 120px groove rgba(213, 97, 76, 0.285);
+}
+
+a {
+    color:rgb(253, 222, 222);
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 40px;
+    background-image: linear-gradient(to left, rgb(248, 163, 124), rgb(255, 145, 81));
+}
+
+label {
+    color: rgb(219, 106, 86);
+    background-image: linear-gradient(to left, rgb(248, 163, 124), rgb(255, 145, 81));
+}
+
+button {
+    background-color: rgba(181, 91, 75, 0.749);
+    color:rgb(255, 227, 227);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 30%;
+    border: outset 7px rgb(250, 183, 183);
+}

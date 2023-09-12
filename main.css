@@ -1,16 +1,16 @@
 body {
-    background-color:rgba(118, 35, 114, 0.537);
+    background-color:rgba(18, 135, 108, 0.772);
 }
 
 h1 {
-    color:rgb(64, 112, 113);
+    color:rgb(58, 131, 133);
     background-color:rgb(35, 61, 62);
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 p {
-    background-color:rgba(154, 82, 150, 0.537);
+    background-color:rgba(156, 107, 130, 0.534);
     padding: 20px;
     border-radius: 20%;
     text-align: center;
@@ -20,7 +20,7 @@ p {
 h1:hover {
     font-size: 80px;
     color:rgb(35, 61, 62);
-    background-color:rgb(47, 119, 119);
+    background-color:rgba(156, 107, 130, 0.534);
 }
 
 a{
@@ -35,4 +35,8 @@ a:visited {
 
 a:hover {
     background-color:rgb(158, 211, 212);
+}
+
+li {
+    font-size: 18px;
 }
