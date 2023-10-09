@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    position: absolute;
+    bottom:75px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.container {
+    background-color: rgb(179, 160, 231);
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: color 3s infinite alternate ease-in-out;
+}
+
+@keyframes color {
+    0% {
+        background-color: rgb(179, 160, 231);
+    }
+    70% {
+        background-color: rgb(179, 160, 231);
+    }
+    100% {
+        background-color: rgb(237, 224, 255);
+    }
+}
+
+.circle {
+    background-color: rgb(108, 71, 178);
+    width:15vw;
+    height:15vw;
+    border-radius: 100%;
+    animation: pulse 10s infinite alternate ease-in-out;
+    position: fixed;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border: 1px dotted white;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgb(108, 71, 178);
+        transform: scale(0.1);
+    }
+    50% {
+        background-color: pink;
+        transform:scale (6);
+    }
+    100% {
+        background-color: rgb(240, 214, 181);
+        transform: scale(7.6);
+    }
+}
+
+.circle2 {
+    background-color: rgb(108, 71, 178);
+    width:20vw;
+    height:20vw;
+    border-radius: 100%;
+    animation: pulse1 10s infinite alternate ease-in-out;
+    position: fixed;
+    justify-content: center;
+}
+
+@keyframes pulse1 {
+    0% {
+        background-color: rgba(108, 71, 178, 0.3);
+        transform: scale(0.2);
+    }
+    50% {
+        background-color: rgba(255, 192, 203, 0.2);
+        transform:scale (7);
+    }
+    100% {
+        background-color: rgba(240, 214, 181, 0.1);
+        transform: scale(8);
+    }
+}
+
+.circle1 {
+    background-color: rgb(209, 162, 232);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 100%;
+    animation: center 15s infinite linear;
+    position: fixed;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    text-transform: rotate(90deg);
+    border: 3px dotted white;
+}
+
+@keyframes center {
+    0% {
+        transform:rotate(0);
+        opacity:70%;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity:90%;
+    }
+}
+
+.image {
+    animation: grow 3s infinite alternate-reverse;
+    position: fixed;
+    justify-content: center;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0.5);
+        opacity: 10%;
+    }
+    50% {
+        transform:scale(1);
+        opacity: 60%;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 80%;
+    }
+}
+
+.breathe {
+    color: white;
+    z-index:1;
+    font-size: 30px;
+    position: fixed;
+    bottom: 70px;
+
+}
