@@ -10,8 +10,23 @@ body {
 a {
     position: fixed;
     bottom: 15px;
-    right: 10px;
+    left: 1550px;
     z-index: 1;
+}
+
+audio {
+    position: absolute;
+    bottom:0px;
+    left: 700px;
+}
+
+.drag {
+    border: 2px solid black;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index:1;
 }
 
 .music {
@@ -73,6 +88,7 @@ a {
         background-color: #00ff4c;
         width: 100px;
         height: 75px;
+        border-radius: 50%;
     }
 }
 
@@ -111,6 +127,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 450px;
+        border-radius: 10%;
     }
 }
 
@@ -123,6 +140,7 @@ a {
         background-color: #00ff4c;
         width: 100px;
         height: 300px;
+        border-radius: 50%;
     }
 }
 
@@ -161,6 +179,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 300px;
+        border-radius: 10%;
     }
 }
 
@@ -173,6 +192,7 @@ a {
         background-color: #00ff4c;
         width: 100px;
         height: 180px;
+        border-radius: 50%;
     }
 }
 
@@ -211,6 +231,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 380px;
+        border-radius: 10%;
     }
 }
 
@@ -223,6 +244,7 @@ a {
         background-color: #00ff4c;
         width: 100px;
         height: 50px;
+        border-radius: 50%;
     }
 }
 
@@ -261,6 +283,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 280px;
+        border-radius: 10%;
     }
 }
 
@@ -273,6 +296,7 @@ a {
         background-color: #00ff4c;
         width: 100px;
         height: 250px;
+        border-radius: 50%;
     }
 }
 
@@ -311,6 +335,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 490px;
+        border-radius: 10%;
     }
 }
 
@@ -323,6 +348,7 @@ a {
         background-color: #00ff4c;
         width: 100px;
         height: 250px;
+        border-radius: 50%;
     }
 }
 
@@ -361,6 +387,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 150px;
+        border-radius: 10%;
     }
 }
 
@@ -411,6 +438,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 450px;
+        border-radius: 10%;
     }
 }
 
@@ -461,6 +489,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 450px;
+        border-radius: 10%;
     }
 }
 
@@ -511,6 +540,7 @@ a {
         background-color: #5dc45b;
         width: 100px;
         height: 450px;
+        border-radius: 10%;
     }
 }
 
