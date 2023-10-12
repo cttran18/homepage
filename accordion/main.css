@@ -11,6 +11,7 @@ a {
     position: absolute;
     bottom: 10px;
     left: 10px;
+    z-index: 1;
 }
 
 .music {
@@ -18,17 +19,7 @@ a {
     left: 0px;
     bottom: 0px;
     z-index: 1;
-    /*animation: shrink 3s infinite; */
 }
-
-/* @keyframes shrink {
-    50% {
-        width: 450px;
-    }
-    100% {
-        width: 800px;
-    }
-}*/
 
 .musicnote {
     position: absolute;
