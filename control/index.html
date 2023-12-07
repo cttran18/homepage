@@ -1,11 +1,69 @@
 <!doctype html>
 <html>
     <head>
-        <title>-</title>
+        <title>Control</title>
         <link rel="stylesheet" href="main.css">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
     </head>
     <body>
+        <a href="../index.html">Back to Homepage</a>
+        <button class="dark-btn">dark</button>
+        <button class="spin-btn">spin</button>
+
+        <div class="flex">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="scripts.js"></script>
+
+
+
+
+
+        <button onclick="change()">Let's Play...</button>
+ 
+        <div id="background-image" class="bg"></div>
+
+        <div id="menu" class="sidebar">
+        </div>
+
+        <div id="spinner" class="square"></div>
+        <div id="spinner" class="square1"></div>
+        <div id="spinner" class="square2"></div>
+        <div id="spinner" class="square3"></div>
+        <div id="spinner" class="square4"></div>
+        <div id="spinner" class="square5"></div>
+        <div id="spinner" class="square6"></div>
+        <div id="spinner" class="square7"></div>
+        <div id="spinner" class="square8"></div>
+        <div id="spinner" class="square9"></div>
+        <div id="spinner" class="square10"></div>
+        <div id="spinner" class="square11"></div>
+        <div id="spinner" class="square12"></div>
+        <div id="spinner" class="square13"></div>
+        <div id="spinner" class="square14"></div>
+        <div id="spinner" class="square16"></div>
         
+
+        <script>
+            function change() {
+              var menu = document.getElementById("menu");
+              
+              var spinner = document.getElementById("spinner");
+
+              var backgroundImage = document.getElementById("background-image");
+
+              menu.classList.toggle("active");
+              spinner.classList.toggle("spin");
+              document.body.classList.toggle("dark");
+              backgroundImage.classList.toggle("reveal");
+            }
+            </script>
     </body>
 </html>

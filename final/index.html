@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Final</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>~ Calender ~
+            <br>
+            To Do List
+        </h1>
+
+        <table>
+            <caption>
+              What is going on this month?
+            </caption>
+            <form id="form">
+            <tr>
+                <th scope="col">Sunday</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+            </tr>
+            <tr>
+                <th scope="row">
+                    <input type="submit" value="1"id="1Btn">
+                    <div class="suna">
+                        <p id="sunA"></p>
+                    </div>
+                    <input type="text" id="suna">
+                </th>
+                <td>
+                    <input type="submit" value="2"id="2Btn">
+                    <div class="mona">
+                        <p id="monA"></p>
+                    </div>
+                    <input type="text" id="mona">
+                </td>
+                <td>
+                    <input type="submit" value="3"id="3Btn">
+                    <div class="tuesa">
+                        <p id="tuesA"></p>
+                    </div>
+                    <input type="text" id="tuesa">
+                </td>
+                <td>
+                    <input type="text" id="wedOne">
+                </td>
+                <td>
+                    <input type="text" id="thursOne">
+                </td>
+                <td>
+                    <input type="text" id="friOne">
+                </td>
+                <th scope="row">
+                    <input type="text" id="satOne">
+                </th>
+            </tr>
+            <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th scope="row"></th>
+            </tr>
+            <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th scope="row"></th>
+            </tr>
+            <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th scope="row"></th>
+            </tr>
+            <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th scope="row"></th>
+            </tr>
+            <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th scope="row"></th>
+            </tr>
+            </form>
+        </table>
+
+
+
+ <!--  <form id="form">
+        1
+        <input type="text" id="one">
+        2
+        <input type="text" id="two">
+        3
+        <input type="text" id="three">
+        <input type="submit" value="add" id="addBtn">
+
+        <br><br>
+        <div class="one">
+            <p id="oneP"></p>
+        </div>
+       
+        <p id="twoP"></p>
+        <p id="threeP"></p>
+    </form>
+-->
+    <script src="jquery.min.js">
+    </script>
+    <script>
+        const form = document.querySelector('#form');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+        })
+
+        /*$('#addBtn').click(function() {
+            $('#oneP').text($('#one').val());
+            $('#twoP').text($('#two').val());
+            $('#threeP').text($('#three').val());
+        })*/
+
+        $('#1Btn').click(function() {
+            $('#sunA').text($('#suna').val());
+        })
+
+        $('#2Btn').click(function() {
+            $('#monA').text($('#mona').val());
+        })
+
+        $('#3Btn').click(function() {
+            $('#tuesA').text($('#tuesa').val());
+        })
+    </script>
+
+    </body>
+</html>

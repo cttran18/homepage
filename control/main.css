@@ -1,3 +1,184 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(0, 0, 0);
+    transition: background-color 3s;
+}
+
+body.dark {
+    background-color: #3b5d5e;
+}
+
+.flex {
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    justify-content:space-evenly;
+}
+
+.box {
+    width:100px;
+    height:100px;
+    background-color: rgb(255, 0, 0);
+    transition: background-color .3s, box-shadow .3s;
+
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.box.dark {
+    background-color: darkolivegreen;
+}
+
+.box.spin {
+    animation-play-state:running;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.dark {
+    background-color: #495c5d;
+}
+
+.bg {
+    background-image: url('rubik.jpeg');
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    opacity:0;
+    transition: opacity 4s;
+}
+
+.reveal {
+    opacity:1;
+}
+
+.sidebar {
+    background-color: rgba(121, 140, 157, 0);
+    position: fixed;
+    top: 0;
+    right:-250px;
+    height:0vh;
+    width:0px;
+    transition: right .3s;
+}
+
+.active {
+    right: 0;
+}
+
+.square {
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 0, 0);
+    position:fixed;
+    left:30px;
+    bottom:30px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.square1 {
+    height:100px;
+    width:100px;
+    background-color: rgb(0, 21, 255);
+    position:fixed;
+    left:100px;
+    bottom:100px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+.square2 {
+    height:100px;
+    width:100px;
+    background-color: rgb(55, 255, 0);
+    position:fixed;
+    left:200px;
+    bottom:300px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.square3 {
+    height:100px;
+    width:100px;
+    background-color: rgb(238, 255, 0);
+    position:fixed;
+    left:100px;
+    bottom:500px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+.square4 {
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 115, 0);
+    position:fixed;
+    left: 700px;
+    bottom:400px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.square5 {
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    left:1000px;
+    bottom:800px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+.square6 {
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 0, 0);
+    position:fixed;
+    left:600px;
+    bottom:100px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.square7 {
+    height:100px;
+    width:100px;
+    background-color: rgb(0, 21, 255);
+    position:fixed;
+    left:500px;
+    bottom:500px;
+    transition: all 2s;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.spin {
+    transform: rotate(-180deg);
+    background-color: rgb(25, 254, 0);
+}
